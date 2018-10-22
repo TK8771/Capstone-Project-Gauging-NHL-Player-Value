@@ -1,0 +1,40 @@
+GP - Games Played
+TOI - Time on Ice
+G - Goals
+A - Assists
+P - Points
+P1 - Primary Points
+P/60 - Points per 60
+P1/60 - Primary Points per 60
+GS - Game Score
+GS/60
+CF - Corsi For
+CA - Corsi Against
+C+/- - Corsi Plus/Minus
+CF% - Corsi For Percentage
+Rel CF% - Relative Corsi For Percentage
+GF - Goals For
+GA - Goals Against
+G+/- - Goals Plus-Minus
+GF% - Goals For Percentage
+Rel GF% - Relative Goals for Percentage
+xGF - Expected Goals For
+xGA - Expected Goals Against
+xG+/- - Expected Goals Plus-Minus
+xGF% - Expected Goals For Percentage
+Rel xGF% - Relative Goals For Percentage
+iPENT - Individual Penalties Taken
+iPEND - Individual Penalties Drawn
+iP+/- - Individual Penalties Plus-Minus
+iCF - Individual Corsi For
+iCF/60 - Individual Corsi For per 60
+ixGF - Individual Expected Goals For
+ixGF/60 - Individual Expected Goals For per 60
+iSh% - Individual Shooting Percentage
+PDO - Not actually an acronym for anything. The sum of a team's shooting percentage and its save percentage. Often considered a measure of luck.
+ZSR - Zone Start Ratio (OZS/(OZS+DZS))
+TOI% - Time On Ice Percentage
+TOI% QoT - Time On Ice Quality of Teammates
+CF% QoT - CF% Quality of Teammates
+TOI% QoC - Time On Ice Quality of Competition
+CF% QoC - CF% Quality of Competition

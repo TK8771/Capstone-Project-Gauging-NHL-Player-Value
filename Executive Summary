@@ -1,0 +1,21 @@
+Executive Summary
+
+Parity is at all time high among professional hockey teams in the NHL. When the trade deadline rolls around in late February, many teams still fancy themselves in the hunt for the Stanley Cup. To add to that effect, ever since the LA Kings won the Cup in 2012 as an 8 seed (going 16-4 in the process), many teams believe the hopeful mantra of "we just have to make it to the playoffs, and then anything can happen."
+
+As a result of this mantra, and the fact that 16 out of 31 teams (or > half) make the playoffs, there is generally a surplus of teams looking to trade for quality players (or 'buyers'), and a dearth of teams looking to trade players away (or 'sellers') for draft picks or future considerations. This leads to a situation where the value of players on selling teams skyrockets to absurd levels, as buying teams look to go 'all-in' to try and win the cup have to essentially outbid the other buying teams.
+
+This is where I'm hoping my project can add value. I will attempt to predict the statistical metrics that best predict player value, mainly for two reasons that usually go hand-in-hand at the trade deadline: finding undervalued players that won't cost too much to trade for (draft picks, young prospects), and also finding players that will be able to fit under the NHL's 'hard' salary cap. So in more than one way, I'm trying to determine how we can find 'undervalued' players.
+
+To do this, I collected player performance data directly from: http://corsica.hockey/skater-stats/, team data from: http://corsica.hockey/team-stats/, and player salary information from: https://www.spotrac.com/nhl/rankings/cap-hit/. The corsica site listed above was built out by noble and wise stats nerds like myself, as they allow you to compile data on their website and export it directly to a .csv. The player salary information though was extracted via a Python web-scrapping script.
+
+The dependent variable that I will be attempting to predict is a player's salary (technically, their cap hit, but I'll go more in-depth on that later). The independent variables are listed in the data dictionary attached to my capstone's repository.
+
+My findings were that: STUFF 
+
+The most important assumption I'll be making is as follows. It is assumed that the team that controls the puck more, generates more score chances, and therefore scores more goals, and is more likely to win the game. This is an important underlying assumption to many NHL advanced stats, and hence why they are tracked closely. Though it is not conclusively proven that better possessions = wins, I will be accepting this assumption for now.
+
+Additionally, a key risk I'm taking is I'll be assuming that there isn't much correlation between my variables, which I know from following the game for over 20 years, that this is probably not the case (at least as fully as certain model types would like).
+
+A limitation of my data is that, unlike a sport like baseball (which could be argued changed how accepted advanced stats are within professional sports), hockey is far more random, and prone to what many old-school fanatics (myself included) would call 'puck luck.' Players, coaches, scouts, GMs, they all say it the same way: "sometimes the bounces just don't go your way." It sounds simplistic, but there's far more randomness in a sport where the puck can awkwardly bounce off of the boards and go an unpredictable direction, or where a shot can be so perfect that it beats a goalie clean, but instead of hitting a goal post and bouncing in, it hits the post and flies right back out.
+
+My hope is that 'puck luck' is on my side and that I score a beauty of a goal with this project aimed at understanding true player value!
