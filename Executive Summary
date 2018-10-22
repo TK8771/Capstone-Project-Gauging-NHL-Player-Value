@@ -10,12 +10,12 @@ To do this, I collected player performance data directly from: http://corsica.ho
 
 The dependent variable that I will be attempting to predict is a player's salary (technically, their cap hit, but I'll go more in-depth on that later). The independent variables are listed in the data dictionary attached to my capstone's repository.
 
-My findings were that: STUFF 
+My findings were that top-tier players add the most value when they're on their entry-level contact. Also, I need to collect more data, and expand the features I collect upon. There's an incredibly large amount of additional research and work I'd need to do to get to where I actually want this analysis.
 
 The most important assumption I'll be making is as follows. It is assumed that the team that controls the puck more, generates more score chances, and therefore scores more goals, and is more likely to win the game. This is an important underlying assumption to many NHL advanced stats, and hence why they are tracked closely. Though it is not conclusively proven that better possessions = wins, I will be accepting this assumption for now.
 
 Additionally, a key risk I'm taking is I'll be assuming that there isn't much correlation between my variables, which I know from following the game for over 20 years, that this is probably not the case (at least as fully as certain model types would like).
 
-A limitation of my data is that, unlike a sport like baseball (which could be argued changed how accepted advanced stats are within professional sports), hockey is far more random, and prone to what many old-school fanatics (myself included) would call 'puck luck.' Players, coaches, scouts, GMs, they all say it the same way: "sometimes the bounces just don't go your way." It sounds simplistic, but there's far more randomness in a sport where the puck can awkwardly bounce off of the boards and go an unpredictable direction, or where a shot can be so perfect that it beats a goalie clean, but instead of hitting a goal post and bouncing in, it hits the post and flies right back out.
+A limitation of my data is that, unlike a sport like baseball (which could be argued changed how accepted advanced stats are within professional sports), hockey is far more random, and prone to what many old-school fanatics (myself included) would call 'puck luck.' Players, coaches, scouts, GMs, they all say it the same way: "sometimes the bounces just don't go your way." It sounds simplistic, but there's far more randomness in a sport where the puck can awkwardly bounce off of the boards and go in an unpredictable direction, or where a shot can be so perfect that it beats a goalie clean, but instead of hitting a goal post and bouncing in, it hits the post and flies right back out.
 
 My hope is that 'puck luck' is on my side and that I score a beauty of a goal with this project aimed at understanding true player value!
